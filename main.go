@@ -20,6 +20,6 @@ func main() {
 	if err!= nil {
 		log.Println("Connection failed", err)
 	} else {
-		log.Println("Connection established")
+		log.Println("Connection established (berhasil terkoneksi)")
 	}
 }
